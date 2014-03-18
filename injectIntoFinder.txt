@@ -1,0 +1,4 @@
+attach Finder
+p (char)[[NSBundle bundleWithPath:@"~/Desktop/SyrahUI.bundle"] load]
+detach
+quit

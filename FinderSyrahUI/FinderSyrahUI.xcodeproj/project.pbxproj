@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD08848F18D7F86A00EFD32D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08848E18D7F86A00EFD32D /* CoreFoundation.framework */; };
+		DD08849518D7F86A00EFD32D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD08849318D7F86A00EFD32D /* InfoPlist.strings */; };
+		DD0884A518D7F96200EFD32D /* FinderSyrahUI.sdef in Resources */ = {isa = PBXBuildFile; fileRef = DD0884A418D7F96200EFD32D /* FinderSyrahUI.sdef */; };
+		DD0884A818D7FA8000EFD32D /* FinderSyrahUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0884A718D7FA8000EFD32D /* FinderSyrahUI.m */; };
+		DD972BAD18D8A38300432714 /* SyrahUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD972BAA18D8A37100432714 /* SyrahUI.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD972BA918D8A37100432714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4024E0918D75C9A0028476C;
+			remoteInfo = SyrahUI;
+		};
+		DD972BAB18D8A38000432714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F4024E0818D75C9A0028476C;
+			remoteInfo = SyrahUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD08848B18D7F86A00EFD32D /* FinderSyrahUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FinderSyrahUI.bundle; path = FinderSyrahUI.osax; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08848E18D7F86A00EFD32D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DD08849218D7F86A00EFD32D /* FinderSyrahUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderSyrahUI-Info.plist"; sourceTree = "<group>"; };
+		DD08849418D7F86A00EFD32D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD08849618D7F86A00EFD32D /* FinderSyrahUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinderSyrahUI-Prefix.pch"; sourceTree = "<group>"; };
+		DD0884A418D7F96200EFD32D /* FinderSyrahUI.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FinderSyrahUI.sdef; sourceTree = "<group>"; };
+		DD0884A618D7FA8000EFD32D /* FinderSyrahUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderSyrahUI.h; sourceTree = "<group>"; };
+		DD0884A718D7FA8000EFD32D /* FinderSyrahUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderSyrahUI.m; sourceTree = "<group>"; };
+		DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SyrahUI.xcodeproj; path = ../SyrahUI.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD08848818D7F86A00EFD32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08848F18D7F86A00EFD32D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD08848218D7F86A00EFD32D = {
+			isa = PBXGroup;
+			children = (
+				DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */,
+				DD08849018D7F86A00EFD32D /* FinderSyrahUI */,
+				DD08848D18D7F86A00EFD32D /* Frameworks */,
+				DD08848C18D7F86A00EFD32D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD08848C18D7F86A00EFD32D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD08848B18D7F86A00EFD32D /* FinderSyrahUI.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD08848D18D7F86A00EFD32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD08848E18D7F86A00EFD32D /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD08849018D7F86A00EFD32D /* FinderSyrahUI */ = {
+			isa = PBXGroup;
+			children = (
+				DD08849118D7F86A00EFD32D /* Supporting Files */,
+				DD0884A618D7FA8000EFD32D /* FinderSyrahUI.h */,
+				DD0884A718D7FA8000EFD32D /* FinderSyrahUI.m */,
+			);
+			path = FinderSyrahUI;
+			sourceTree = "<group>";
+		};
+		DD08849118D7F86A00EFD32D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD08849218D7F86A00EFD32D /* FinderSyrahUI-Info.plist */,
+				DD08849318D7F86A00EFD32D /* InfoPlist.strings */,
+				DD08849618D7F86A00EFD32D /* FinderSyrahUI-Prefix.pch */,
+				DD0884A418D7F96200EFD32D /* FinderSyrahUI.sdef */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD972BA618D8A37000432714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD972BAA18D8A37100432714 /* SyrahUI.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD08848A18D7F86A00EFD32D /* FinderSyrahUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD08849918D7F86A00EFD32D /* Build configuration list for PBXNativeTarget "FinderSyrahUI" */;
+			buildPhases = (
+				DD08848718D7F86A00EFD32D /* Sources */,
+				DD08848818D7F86A00EFD32D /* Frameworks */,
+				DD08848918D7F86A00EFD32D /* Resources */,
+				DD972BAE18D8A3EB00432714 /* Copy new version to installer */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD972BAC18D8A38000432714 /* PBXTargetDependency */,
+			);
+			name = FinderSyrahUI;
+			productName = FinderSyrahUI;
+			productReference = DD08848B18D7F86A00EFD32D /* FinderSyrahUI.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD08848318D7F86A00EFD32D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+			};
+			buildConfigurationList = DD08848618D7F86A00EFD32D /* Build configuration list for PBXProject "FinderSyrahUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD08848218D7F86A00EFD32D;
+			productRefGroup = DD08848C18D7F86A00EFD32D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DD972BA618D8A37000432714 /* Products */;
+					ProjectRef = DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DD08848A18D7F86A00EFD32D /* FinderSyrahUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DD972BAA18D8A37100432714 /* SyrahUI.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyrahUI.bundle;
+			remoteRef = DD972BA918D8A37100432714 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD08848918D7F86A00EFD32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD08849518D7F86A00EFD32D /* InfoPlist.strings in Resources */,
+				DD0884A518D7F96200EFD32D /* FinderSyrahUI.sdef in Resources */,
+				DD972BAD18D8A38300432714 /* SyrahUI.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD972BAE18D8A3EB00432714 /* Copy new version to installer */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy new version to installer";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd ../Installer\nOSAXPATH=\"$TARGET_BUILD_DIR/$PRODUCT_NAME.osax\"\ncp -R \"$OSAXPATH\" .FinderSyrahUI.osax";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD08848718D7F86A00EFD32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0884A818D7FA8000EFD32D /* FinderSyrahUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD972BAC18D8A38000432714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyrahUI;
+			targetProxy = DD972BAB18D8A38000432714 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD08849318D7F86A00EFD32D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD08849418D7F86A00EFD32D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD08849718D7F86A00EFD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD08849818D7F86A00EFD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD08849A18D7F86A00EFD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderSyrahUI/FinderSyrahUI-Prefix.pch";
+				INFOPLIST_FILE = "FinderSyrahUI/FinderSyrahUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = osax;
+			};
+			name = Debug;
+		};
+		DD08849B18D7F86A00EFD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderSyrahUI/FinderSyrahUI-Prefix.pch";
+				INFOPLIST_FILE = "FinderSyrahUI/FinderSyrahUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = osax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD08848618D7F86A00EFD32D /* Build configuration list for PBXProject "FinderSyrahUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08849718D7F86A00EFD32D /* Debug */,
+				DD08849818D7F86A00EFD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD08849918D7F86A00EFD32D /* Build configuration list for PBXNativeTarget "FinderSyrahUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD08849A18D7F86A00EFD32D /* Debug */,
+				DD08849B18D7F86A00EFD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD08848318D7F86A00EFD32D /* Project object */;
+}

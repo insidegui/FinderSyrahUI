@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="FinderSyrahUI Terminology">
+    <suite name="FinderSyrahUI Suite" code="NVTY" description="FinderSyrahUI Injector commands">
+        <command name="install FinderSyrahUI" code="FinderSyrahUILoad" description="Loads FinderSyrahUI into the Finder process"/>
+    </suite>
+</dictionary>
