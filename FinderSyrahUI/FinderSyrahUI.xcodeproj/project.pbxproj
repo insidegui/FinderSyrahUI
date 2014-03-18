@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD08848F18D7F86A00EFD32D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08848E18D7F86A00EFD32D /* CoreFoundation.framework */; };
 		DD08849518D7F86A00EFD32D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD08849318D7F86A00EFD32D /* InfoPlist.strings */; };
 		DD0884A518D7F96200EFD32D /* FinderSyrahUI.sdef in Resources */ = {isa = PBXBuildFile; fileRef = DD0884A418D7F96200EFD32D /* FinderSyrahUI.sdef */; };
 		DD0884A818D7FA8000EFD32D /* FinderSyrahUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0884A718D7FA8000EFD32D /* FinderSyrahUI.m */; };
 		DD972BAD18D8A38300432714 /* SyrahUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD972BAA18D8A37100432714 /* SyrahUI.bundle */; };
+		F4B4383018D8B76200BC4584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B4382F18D8B76200BC4584 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 		DD0884A618D7FA8000EFD32D /* FinderSyrahUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinderSyrahUI.h; sourceTree = "<group>"; };
 		DD0884A718D7FA8000EFD32D /* FinderSyrahUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinderSyrahUI.m; sourceTree = "<group>"; };
 		DD972BA518D8A37000432714 /* SyrahUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SyrahUI.xcodeproj; path = ../SyrahUI.xcodeproj; sourceTree = "<group>"; };
+		F4B4382F18D8B76200BC4584 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD08848F18D7F86A00EFD32D /* CoreFoundation.framework in Frameworks */,
+				F4B4383018D8B76200BC4584 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +77,7 @@
 		DD08848D18D7F86A00EFD32D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4B4382F18D8B76200BC4584 /* Cocoa.framework */,
 				DD08848E18D7F86A00EFD32D /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
